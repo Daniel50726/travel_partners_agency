@@ -1,0 +1,74 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.navContainer {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.títuloPrincipal {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.acercaDeNosotros {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.acercaDeNosotros li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.lugaresTuristicos {
+    position: relative;
+    padding-top: 15px;
+}
+
+.lugaresTuristicos li{
+    margin: 0 0 15px 0;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.footerContainer {
+    margin: 50px 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #73A8C2;
+    text-decoration: none;
+}
+
+.social li {
+    margin: 0 5px;
+}
+
+.footerTittle {
+    color: #F7EDE1;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footerInfo {
+    color: #F1C863;
+}
