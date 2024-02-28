@@ -18,13 +18,13 @@ header {
     margin-bottom: 25px;
 }
 
-.nosotrosContainer {
+.principalContainer {
     position: absolute;
     top: 15px;
     right: 0;
 }
 
-.nosotros {
+.principal {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
@@ -32,46 +32,29 @@ header {
     text-decoration: none;
 }
 
-.nosotros:hover {
+.principal:hover {
     color: #C78C19;
     text-decoration: underline;
 }
 
-.lugaresTuristicos {
-    width: 100%;
-    padding-left: 20px;
+.nosotrosTittleContainer {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-.lugaresTuristicos li{
-    display: inline-block;
-    text-align: center;
-    width: 16%;
-    vertical-align: top;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
+.nosotrosTittle {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
 }
 
-.lugaresTuristicos li:hover {
-    border-color: #C78C19;
-}
-
-.lugaresTuristicos li:hover .linkLugaresTuristicos {
+.nosotrosContent {
     font-size: 20px;
-}
-
-.linkLugaresTuristicos {
-    text-transform: uppercase;
     color: black;
-    font-weight: bold;
-    font-size: 17px;
-    text-decoration: none;
-}
-
-.linkLugaresTuristicos:hover {
-    color: #C78C19;
-    text-decoration: underline;
+    text-align: justify;
 }
 
 .footerContainer {
