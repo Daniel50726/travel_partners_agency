@@ -1,13 +1,22 @@
-header {
+.headerPrincipal {
     background-color: #BBBBBB;
     padding: 20px 0;
     margin-bottom: 20px;
 }
 
-.headerContainer {
+.headerSection {
     width: 940px;
     position: relative;
     margin: 0 auto;
+}
+
+.logoTitulo {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitulo img {
+    order: -1;
 }
 
 .tituloPrincipal {
@@ -15,12 +24,12 @@ header {
     color: black;
     font-weight: bold;
     font-size: 42px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 .nosotrosContainer {
     position: absolute;
-    top: 15px;
+    top: 50px;
     right: 0;
 }
 
@@ -33,7 +42,6 @@ header {
 }
 
 .nosotros:hover {
-    color: #C78C19;
     text-decoration: underline;
 }
 
@@ -46,6 +54,7 @@ header {
     display: inline-block;
     text-align: center;
     width: 16%;
+    height: 600px;
     vertical-align: top;
     padding: 30px 20px;
     box-sizing: border-box;
@@ -53,12 +62,42 @@ header {
     border-radius: 10px;
 }
 
+.colombia {
+    background: url("imagenes/badera_colombia.jpg");
+}
+
+.brasil {
+    background: url("imagenes/bandera_brasil.jpg");
+    background-size: cover;
+}
+
+.peru {
+    background: url("imagenes/bandera_peru.jpg");
+    background-size: cover;
+}
+
+.españa {
+    background: url("imagenes/bandera_españa.jpg");
+    background-size: cover;
+}
+
+.japon {
+    background: url("imagenes/bandera_japon.jpg");
+    background-size: cover;
+}
+
+.italia {
+    background: url("imagenes/bandera_italia.jpg");
+    background-size: cover;
+}
+
 .lugaresTuristicos li:hover {
-    border-color: #C78C19;
+    border-color: #088C19;
 }
 
 .lugaresTuristicos li:hover .linkLugaresTuristicos {
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .linkLugaresTuristicos {
@@ -69,16 +108,11 @@ header {
     text-decoration: none;
 }
 
-.linkLugaresTuristicos:hover {
-    color: #C78C19;
-    text-decoration: underline;
-}
-
 .footerContainer {
     margin: 20px 0;
     padding: 20px 0;
     text-align: center;
-    background-color: #73A8C2;
+    background-color: black;
     text-decoration: none;
 }
 
@@ -87,12 +121,12 @@ header {
 }
 
 .footerTittle {
-    color: #F7EDE1;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
 .footerInfo {
-    color: #F1C863;
+    color: white;
 }

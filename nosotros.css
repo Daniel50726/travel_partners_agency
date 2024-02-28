@@ -1,13 +1,22 @@
-header {
+.headerNosotros {
     background-color: #BBBBBB;
     padding: 20px 0;
     margin-bottom: 20px;
 }
 
-.headerContainer {
+.headerNosotrosSection {
     width: 940px;
     position: relative;
     margin: 0 auto;
+}
+
+.logoTitulo {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitulo img {
+    order: -1;
 }
 
 .tituloPrincipal {
@@ -15,12 +24,12 @@ header {
     color: black;
     font-weight: bold;
     font-size: 42px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 .principalContainer {
     position: absolute;
-    top: 15px;
+    top: 50px;
     right: 0;
 }
 
@@ -33,7 +42,6 @@ header {
 }
 
 .principal:hover {
-    color: #C78C19;
     text-decoration: underline;
 }
 
@@ -61,7 +69,7 @@ header {
     margin: 20px 0;
     padding: 20px 0;
     text-align: center;
-    background-color: #73A8C2;
+    background-color: black;
     text-decoration: none;
 }
 
@@ -70,12 +78,12 @@ header {
 }
 
 .footerTittle {
-    color: #F7EDE1;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
 .footerInfo {
-    color: #F1C863;
+    color: white;
 }
