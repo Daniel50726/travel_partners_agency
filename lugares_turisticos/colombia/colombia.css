@@ -45,9 +45,48 @@
     text-decoration: underline;
 }
 
+.colombiaSection {
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px 50px;
+}
 
+.tituloColombiaSection {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
 
+.descripcionColombiaSection {
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
 
+.subtituloColombiaSection {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.atractivosTuristicosColombia {
+    margin-bottom: 30px;
+}
+
+.itinerarioLista {
+    margin-bottom: 20px;
+}
+
+.itinerarioLista li {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
 
 .footerContainer {
     margin: 20px 0;
