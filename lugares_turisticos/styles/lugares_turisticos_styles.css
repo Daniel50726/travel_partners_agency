@@ -1,25 +1,25 @@
-.headerColombia {
+.headerLugaresTuristicos {
     background-color: #BBBBBB;
     padding: 20px 0;
     margin-bottom: 20px;
 }
 
-.headerColombiaSection {
+.headerLugaresTuristicosSection {
     width: 940px;
     position: relative;
     margin: 0 auto;
 }
 
-.logoColombia {
+.logoLugaresTuristicos {
     display: flex;
     align-items: center;
 }
 
-.logoColombia img {
+.logoLugaresTuristicos img {
     order: -1;
 }
 
-.tituloColombia {
+.tituloLugaresTuristicos {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
@@ -45,13 +45,13 @@
     text-decoration: underline;
 }
 
-.colombiaSection {
+.lugaresTuristicosSection {
     width: 40%;
     margin: 0 auto;
     padding: 15px 50px;
 }
 
-.tituloColombiaSection {
+.tituloLugaresTuristicosSection {
     text-transform: uppercase;
     text-align: center;
     font-size: 25px;
@@ -60,13 +60,13 @@
     margin-bottom: 20px;
 }
 
-.descripcionColombiaSection {
+.descripcionLugaresTuristicosSection {
     font-size: 20px;
     color: black;
     text-align: justify;
 }
 
-.subtituloColombiaSection {
+.subtituloLugaresTuristicosSection {
     text-transform: uppercase;
     text-align: left;
     font-size: 20px;
@@ -75,7 +75,7 @@
     margin-bottom: 10px;
 }
 
-.atractivosTuristicosColombia {
+.atractivosTuristicos {
     margin-bottom: 30px;
 }
 
